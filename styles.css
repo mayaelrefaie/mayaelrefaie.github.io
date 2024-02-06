@@ -1,0 +1,65 @@
+body {
+    background-color:beige;
+    color:rgb(101, 100, 100);
+    font-size: 12pt;
+    font-family: Arial;
+    margin: 70pt;
+    margin-top: 50pt;
+    margin-bottom: 50pt;
+  }
+
+h1{
+    font-size: 30pt;
+    font-family: 'Lucida Sans';
+    color:brown;
+    text-align: center; 
+  }
+  a{text-align: center;}
+  a:link, a:visited { color: blue;
+    text-align:center;
+  }
+a:hover {
+    color: red;
+    background-color: white;
+    font-size: large;
+  }
+a:active{ 
+    color:green;
+    }
+h2{
+    font-size: 25pt;
+    font-family:'Lucida Sans';
+    color:rgb(179, 98, 98);
+    text-decoration-line: underline;
+}
+p{
+    font-size: 15pt;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans';
+    color:rgb(125, 78, 16);
+    nav a:link { color: #FFFFFF; };
+}
+h3{
+    font-size: 20pt;
+    font-family:'Lucida Sans';
+    color:rgb(178, 116, 116);
+    text-decoration-line: underline;
+}
+footer{
+    text-align: center;
+    font-size: 10pt;
+    color: black;
+}
+table{
+    border: 1px solid black;
+
+}
+.div-links{
+    border: 1px solid black;
+    color: blue;
+
+}
+.div-text{
+    border: 1px solid black;
+    color: orange;
+
+}
