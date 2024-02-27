@@ -90,11 +90,11 @@ button{
     text-align: center;
 
 }
-   
     .dropdown {
 
     position: relative;
     float:none;
+    align-items: end;
     }
    
     .dropdown-content {
@@ -113,20 +113,19 @@ button{
 
     .dropbtn1 {
         font-size: 20px;
-        margin-right: 45%;
         line-height: 50px; /* Adjust line height to vertically center the button */
-        text-align: center;
+        text-align:left;
+        width:fit-content;
+        white-space: nowrap;
     
     }
-       
-        .dropdown1 {
-    
-        position: relative;
+.dropdown1 {
+    position: relative;
         float:none;
         }
        
-        .dropdown-content1 {
-            padding: 10px 20px;
+.dropdown-content1 {
+            padding: 15px;
             font-size: 16px;
             display: none;
             position:relative;
@@ -134,7 +133,7 @@ button{
             min-width: 200px;
             
         }
-        .dropdown-content1 a {
+.dropdown-content1 a {
         display: block;  }
-         .dropdown-content1 a:hover {background-color: #f1f1f1}
-        .show {display:block;}
+.dropdown-content1 a:hover {background-color: #f1f1f1}
+        .show1 {display:block;}
