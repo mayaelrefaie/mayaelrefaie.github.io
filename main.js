@@ -55,3 +55,34 @@ some_tag.style.color="blue" ;
 }
 function mOut(element) { element.innerHTML = "Education"; element.style.color = "orange";
 }
+
+function validateForm() {
+    let y = document.forms["myForm"]["fname"].value;
+    if (y == "") {
+      alert("Name must be filled out");
+      return false;
+    }
+  }
+  function submitForm() {
+    const formData = {}; // Object to store form data
+    const formElements = document.getElementById('answersForm').elements;
+
+    // Loop through form elements and store data in formData object
+    for (let i = 0; i < formElements.length; i++) {
+        if (formElements[i].type !== 'button') {
+            formData[formElements[i].name] = formElements[i].value;
+        }
+    }
+
+    localStorage.setItem('formData', JSON.stringify(formData)); // Store form data in local storage
+}
+
+// Function to clear form fields and local storage data
+function clearForm() {
+    document.getElementById('answersForm').reset(); // Reset form fields
+    localStorage.removeItem('formData'); // Remove form data from local storage
+}
+function clearForm() {
+    document.getElementById('answersForm').reset(); // Reset form fields
+    localStorage.removeItem('formData'); // Remove form data from local storage
+}

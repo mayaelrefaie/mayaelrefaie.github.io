@@ -137,3 +137,29 @@ button{
         display: block;  }
 .dropdown-content1 a:hover {background-color: #f1f1f1}
         .show1 {display:block;}
+
+        form {
+            width: 350px;
+            margin: auto;
+            padding: 20px;
+            background-color: #e88383;
+            border-radius: 5px;
+         }
+        
+         label {
+            display: block;
+            margin-bottom: 5px;
+            font-weight: bold;
+        }
+        
+        input[type="text"],
+        input[type="email"],
+        textarea {
+            width: 100%;
+            padding: 8px;
+            margin-bottom: 15px;
+            border: 1px solid black;
+            border-radius: 3px;
+        }
+        
+    

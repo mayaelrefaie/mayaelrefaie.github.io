@@ -86,7 +86,47 @@
         <td><div class="div-text">Opens Maya El Refaie's linkedin page</div></td>
     </tr>  
 </table>
-    <footer><small> Copyrights & Copy Maya El Refaie's Website</small></footer>
+            <form id="myform">
+            <p>Contact pagea</p>
+            <label for="fname">First name:</label><br>
+            <input type="text" id="fname" name="fname"><br>
+
+            <label for="lname">Last name:</label><br>
+            <input type="text" id="lname" name="lname">
+
+            <label for="email">Enter your email:</label>
+            <input type="email" id="email" name="email">
+
+            <label for="number">Enter your phone number:</label>
+            <input type="number" id="pn" name="pn">
+
+            <label for="checkbox">What is your preferred contact method</label><br>
+            <input type="checkbox" name="email" id="eCheckbox" > Email
+            <input type="checkbox" name="pn" id="pnCheckbox" > Phone Number<br><br>
+
+            <label for="checkbox">Are you an Employer?</label><br>
+            <input type="checkbox" name="Yes" id="yesCheckbox" >Yes
+            <input type="checkbox" name="No" id="NoCheckbox" > No <br><br>
+
+            <label for="checkbox">Reason for contact?</label><br>
+            <input type="checkbox" name="GI" id="GICheckbox" >General Inquiry
+            <input type="checkbox" name="TS" id="TSCheckbox" > Technical support
+            <input type="checkbox" name="FB" id="FBCheckbox" > Feedback
+            <input type="checkbox" name="otr" id="otrCheckbox" > Other<br><br>
+
+            <label for="message">If you chose other, explain the reason for contact</label><br>
+            <input type="message" id="msgtxt"  name="msg" >
+            
+            <label for="radio"> How satisfied are you with the website </label><br>
+            <input type="radio" value="A" name="choice">not satisfied 
+            <input type="radio" value="B" name="choice"> average
+            <input type="radio" value="c" name="choice">satisfied
+            <br><br>
+            
+            <button type="submit" onclick="submitForm()">Submit</button><br>
+            <button type="button" onclick="clearForm()">Clear/Reset</button>
+             </form>
+           <footer><small> Copyrights & Copy Maya El Refaie's Website</small></footer>
 
 </body>
 </html>
