@@ -86,3 +86,4 @@ function clearForm() {
     document.getElementById('answersForm').reset(); // Reset form fields
     localStorage.removeItem('formData'); // Remove form data from local storage
 }
+
