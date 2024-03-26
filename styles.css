@@ -1,7 +1,7 @@
 body {
-    background-color:beige;
-    color:rgb(101, 100, 100);
-    font-size: 12pt;
+    background-color:#f5f5db;
+    color:black;
+    font-size: 19px;
     font-family: Arial;
     margin: 70pt;
     margin-top: 50pt;
@@ -11,8 +11,9 @@ body {
 h1{
     font-size: 30pt;
     font-family: 'Lucida Sans';
-    color:brown;
+    color:#972626;
     text-align: center; 
+    
   }
   a{text-align: center;}
   a:link, a:visited { color: blue;
@@ -29,13 +30,13 @@ a:active{
 h2{
     font-size: 25pt;
     font-family:'Lucida Sans';
-    color:rgb(179, 98, 98);
+    color:#972626;
     text-decoration-line: underline;
 }
 p{
     font-size: 15pt;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans';
-    color:rgb(125, 78, 16);
+    color:#972626;
     nav a:link { color: #FFFFFF; };
 }
 h3{
@@ -165,4 +166,16 @@ button{
             border: 1px solid black;
             border-radius: 3px;
         }
-   
+    
+.form p{
+    color: black;
+}
+.model-name {
+    font-size:  1.125rem;
+    line-height: 1.2;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+  }
+  

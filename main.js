@@ -86,4 +86,25 @@ function clearForm() {
     document.getElementById('answersForm').reset(); // Reset form fields
     localStorage.removeItem('formData'); // Remove form data from local storage
 }
+function changeFontSize(size) {
+    document.getElementById('content').style.fontSize = size + 'px';
+  }
 
+function changeFontSize(size) {
+    document.getElementById('content').style.fontSize = size + 'px';
+  }
+
+  // Function to increase text size
+function increaseTextSize() {
+    var currentFontSize = parseInt(window.getComputedStyle(document.getElementById('content')).fontSize);
+    document.getElementById('content').style.fontSize = (currentFontSize + 5) + 'px';
+  }
+
+  // Function to decrease text size
+function decreaseTextSize() {
+    var currentFontSize = parseInt(window.getComputedStyle(document.getElementById('content')).fontSize);
+    document.getElementById('content').style.fontSize = (currentFontSize - 5) + 'px';
+  }
+function changeTextColor(color) {
+    document.getElementById('content').style.color = color;
+}
